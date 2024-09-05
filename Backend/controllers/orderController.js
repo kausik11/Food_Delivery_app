@@ -7,7 +7,10 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 //using this we will place the user order // placing user order from frontend
 const placeOrder = async (req, res) => {
 
-    const frontend_url = "http://localhost:5174";
+    //for localhost we are using this endpoint to create a "success URL" after payment is sucessful
+    // const frontend_url = "http://localhost:5174";
+    //after deployment we use the "frontend link" provide by rended.com, as our current frontend_url
+    const frontend_url = "https://frontend-5e9v.onrender.com";
  
     try {
         const newOrder = new orderModel({
