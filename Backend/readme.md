@@ -25,3 +25,7 @@
 # 11. Fetch_all_orders_for_admin_panel ->
 # 12. Update_order_status_For_admin ->
 # 13. make an order -> http://localhost:4000/api/order/place -> post -> and pass the token in headers 
+
+
+# Server Started on http://localhost:10000 at render side
+# Backend Url -> https://food-backend-b86u.onrender.com
