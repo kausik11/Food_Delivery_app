@@ -9,7 +9,10 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
-  const url = "http://localhost:4000"
+  //this url we use while we run this admin panel on local server
+  // const url = "http://localhost:4000"
+  //we use new url provided by render.com while we acess admin panel after deploy
+  const url = "https://food-backend-b86u.onrender.com";
   return (
     <div>
     <ToastContainer/>
