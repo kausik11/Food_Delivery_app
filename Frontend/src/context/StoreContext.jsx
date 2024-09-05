@@ -29,7 +29,10 @@ const StoreContextProvider = (props)=>{
      } //to run this function when the webpage is reloaded we add this within the useEfeect()
 
     // console.log(cartItems);
-    const url = "http://localhost:4000"
+    // we use this Backend url when our project is in the local server
+    // const url = "http://localhost:4000"
+    //but for online backend from render.com we use another backend for "Backend URL"
+    const url = "https://food-backend-b86u.onrender.com"
 
 
     //add to cart functionalities
