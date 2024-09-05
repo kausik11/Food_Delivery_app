@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import { Routes,Route } from 'react-router-dom';
 import Home from './pages/Home/Home.jsx';
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder.jsx';
-import Cart from './Pages/Cart/Cart.jsx';
+import Cart from './pages/Cart/Cart.jsx';
 import Footer from './components/Footer/Footer.jsx'
 import LoginPopUp from './components/LoginPopup/LoginPopup.jsx';
 import Verify from './pages/Verify/Verify.jsx';
