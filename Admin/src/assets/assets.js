@@ -14,4 +14,7 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'http://localhost:4000'
+//we use this backendurl while we or on localserver 
+// export const url = 'http://localhost:4000'
+//but while we are using render.com we use the backend url that provide by render.com
+export const url = 'https://food-backend-b86u.onrender.com'
